@@ -139,7 +139,7 @@ for pubsource in publist:
 
             # md += "\ncitation: '" + html_escape(citation) + "'"
 
-            md += "\nexcerpt: '" + html_escape(abstract[:500] + "...") + "'"
+            md += "\nexcerpt: '" + html_escape(abstract[:400] + "...") + "'"
 
             md += "\n---"
 
