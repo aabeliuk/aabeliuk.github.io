@@ -139,11 +139,14 @@ for pubsource in publist:
 
             # md += "\ncitation: '" + html_escape(citation) + "'"
 
-            md += "\nexcerpt: '" + html_escape(abstract) + "'"
+            md += "\nexcerpt: '" + html_escape(abstract[:500] + "...") + "'"
 
             md += "\n---"
 
-            
+            md += "\nAbstract: '" + html_escape(abstract) + "'"
+
+            md += "\n"
+
             ## Markdown description for individual page
             if note:
                 md += "\n" + html_escape(b["note"]) + "\n"
