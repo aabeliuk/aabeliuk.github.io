@@ -1,0 +1,9 @@
+---
+title: "The benefits of social influence in optimized cultural markets"
+collection: publications
+permalink: /publication/2015-01-01-The-benefits-of-social-influence-in-optimized-cultural-markets
+date: 2015-01-01
+venue: 'PLoS ONE'
+abstract: 'Social influence has been shown to create significant unpredictability in cultural markets, providing one potential explanation why experts routinely fail at predicting commercial success of cultural products. As a result, social influence is often presented in a negative light. Here, we show the benefits of social influence for cultural markets. We present a policy that uses product quality, appeal, position bias and social influence to maximize expected profits in the market. Our computational experiments show that our profit-maximizing policy leverages social influence to produce significant performance benefits for the market, while our theoretical analysis proves that our policy outperforms in expectation any policy not displaying social signals. Our results contrast with earlier work which focused on showing the unpredictability and inequalities created by social influence. Not only do we show for the first time that, under our policy, dynamically showing consumers positive social signals increases the expected profit of the seller in cultural markets.We also show that, in reasonable settings, our profit-maximizing policy does not introduce significant unpredictability and identifies &quot;blockbusters&quot;. Overall, these results shed new light on the nature of social influence and how it can be leveraged for the benefits of the market.'
+---
+Use [Google Scholar](https://scholar.google.com/scholar?q=The+benefits+of+social+influence+in+optimized+cultural+markets){:target="_blank"} for full citation

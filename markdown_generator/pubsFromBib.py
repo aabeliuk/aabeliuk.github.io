@@ -87,7 +87,9 @@ for pubsource in publist:
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
-            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")    
+            clean_title = b["title"].replace("{", "").replace("}","").replace("\\","").replace(" ","-")   
+
+            abstract  = b["abstract"]
 
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
@@ -135,7 +137,9 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
+            # md += "\ncitation: '" + html_escape(citation) + "'"
+
+            md += "\nabstract: '" + html_escape(abstract) + "'"
 
             md += "\n---"
 
