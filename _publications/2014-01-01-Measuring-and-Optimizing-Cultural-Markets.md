@@ -1,0 +1,12 @@
+---
+title: "Measuring and Optimizing Cultural Markets"
+collection: publications
+permalink: /publication/2014-01-01-Measuring-and-Optimizing-Cultural-Markets
+date: 2014-01-01
+venue: 'arXiv'
+paperurl: 'http://arxiv.org/abs/1408.1542'
+excerpt: 'Social influence has been shown to create significant unpredictability in cultural markets, providing one potential explanation why experts routinely fail at predicting commercial success of cultural products. To counteract the difficulty of making accurate predictions, &quot;measure and react&quot; strategies have been advocated but finding a concrete strategy that scales for very large markets has remained elusive so far. Here we propose a &quot;measure and optimize&quot; strategy based on an optimization policy ...'
+---
+Abstract: 'Social influence has been shown to create significant unpredictability in cultural markets, providing one potential explanation why experts routinely fail at predicting commercial success of cultural products. To counteract the difficulty of making accurate predictions, &quot;measure and react&quot; strategies have been advocated but finding a concrete strategy that scales for very large markets has remained elusive so far. Here we propose a &quot;measure and optimize&quot; strategy based on an optimization policy that uses product quality, appeal, and social influence to maximize expected profits in the market at each decision point. Our computational experiments show that our policy leverages social influence to produce significant performance benefits for the market, while our theoretical analysis proves that our policy outperforms in expectation any policy not displaying social information. Our results contrast with earlier work which focused on showing the unpredictability and inequalities created by social influence. Not only do we show for the first time that dynamically showing consumers positive social information under our policy increases the expected performance of the seller in cultural markets. We also show that, in reasonable settings, our policy does not introduce significant unpredictability and identifies &quot;blockbusters&quot;. Overall, these results shed new light on the nature of social influence and how it can be leveraged for the benefits of the market.'
+
+Use [Google Scholar](https://scholar.google.com/scholar?q=Measuring+and+Optimizing+Cultural+Markets){:target="_blank"} for full citation
