@@ -12,6 +12,59 @@ title = {{Friendship paradox biases perceptions in directed networks}},
 volume = {11},
 year = {2020}
 }
+@article{Ozer2020,
+abstract = {How is popularity gained online? Is being successful strictly related to rapidly becoming viral in an online platform, or is it possible to acquire popularity in a steady and disciplined fashion? What are other temporal characteristics that can unveil the popularity of online content? To answer these questions, we leverage a multifaceted temporal analysis of the evolution of popular online content. We present dipm-SC: a multidimensional shape-based time-series clustering algorithm with a heuristic to find the optimal number of clusters. First, we validate the accuracy of our algorithm on synthetic datasets generated from benchmark time series models. Second, we show that dipm-SC can uncover meaningful clusters of popularity behaviors in real-world GitHub and Twitter datasets. By clustering the multidimensional time-series of the popularity of contents coupled with other domain-specific dimensions, we discover two main patterns of popularity: bursty and steady temporal behaviors. Furthermore, we find that the way popularity is gained over time has no significant impact on the final cumulative popularity.},
+author = {Ozer, Mert and Sapienza, Anna and Abeliuk, Andr{\'{e}}s and Muric, Goran and Ferrara, Emilio},
+doi = {10.1016/j.eswa.2020.113337},
+file = {:Users/aabeliuk/Library/Application Support/Mendeley Desktop/Downloaded/Ozer et al. - 2020 - Discovering Patterns of Online Popularity from Time Series.pdf:pdf},
+issn = {09574174},
+journal = {Expert Systems with Applications},
+month = {feb},
+pages = {113337},
+publisher = {Pergamon},
+title = {{Discovering Patterns of Online Popularity from Time Series}},
+url = {https://linkinghub.elsevier.com/retrieve/pii/S0957417420301627},
+year = {2020}
+}
+@article{Abeliuk2020,
+abstract = {Applications from finance to epidemiology and cyber-security require accurate forecasts of dynamic phenomena, which are often only partially observed. We demonstrate that a system's predictability degrades as a function of temporal sampling, regardless of the adopted forecasting model. We quantify the loss of predictability due to sampling, and show that it cannot be recovered by using external signals. We validate the generality of our theoretical findings in real-world partially observed systems representing infectious disease outbreaks, online discussions, and software development projects. On a variety of prediction tasks---forecasting new infections, the popularity of topics in online discussions, or interest in cryptocurrency projects---predictability irrecoverably decays as a function of sampling, unveiling fundamental predictability limits in partially observed systems.},
+journal = {arXiv},
+arxivId = {2001.06547},
+author = {Abeliuk, Andr{\'{e}}s and Huang, Zhishen and Ferrara, Emilio and Lerman, Kristina},
+eprint = {2001.06547},
+month = {jan},
+title = {{Predictability limit of partially observed systems}},
+url = {http://arxiv.org/abs/2001.06547},
+year = {2020}
+}
+@inproceedings{Chong2019,
+abstract = {Recommendation systems today exert a strong influence on consumer behavior and individual perceptions of the world. By using collaborative filtering (CF) methods to create recommendations, it generates a continuous feedback loop in which user behavior becomes magnified in the algorithmic system. Popular items get recommended more frequently, creating the bias that affects and alters user preferences. In order to visualize and compare the different biases, we will analyze the effects of recommendation systems and quantify the inequalities resulting from them.},
+author = {Chong, Sunshine and Abeliuk, Andr{\'{e}}s},
+booktitle = {2019 IEEE International Conference on Big Data (Big Data)},
+doi = {10.1109/BigData47090.2019.9005951},
+file = {:Users/aabeliuk/Library/Application Support/Mendeley Desktop/Downloaded/Chong, Abeliuk - 2019 - Quantifying the Effects of Recommendation Systems.pdf:pdf},
+isbn = {978-1-7281-0858-2},
+month = {dec},
+pages = {3008--3015},
+publisher = {IEEE},
+title = {{Quantifying the Effects of Recommendation Systems}},
+url = {https://ieeexplore.ieee.org/document/9005951/},
+year = {2019}
+}
+@inproceedings{Lin2019,
+abstract = {Different social media environments enable different levels of community connectedness, which in turn affects the information that a user is exposed to. In this study, we create an agent-based model to investigate how the different levels of connectedness as well as network structure affects a group's diversity of opinions. In the model, agents are tasked with “liking” or “disliking” a set of objects. At each turn, each agent sees the most popular object amongst the agents that they are connected to. There are two main findings: 1) low network connectivity leads to more diversity amongst agents, 2) a complete network leads information popularity distribution to be more skewed, 3) the more random a network is, the more skewed information popularity distribution is. These findings suggest that online platforms that either create well-connected communities or present aggregated information of users (such as Billboard rankings) may lead to homogeneity in the subjective preference of the users over time.},
+author = {Lin, Anne and Abeliuk, Andr{\'{e}}s and Ferrara, Emilio},
+booktitle = {2019 IEEE International Conference on Big Data (Big Data)},
+doi = {10.1109/BigData47090.2019.9005454},
+file = {:Users/aabeliuk/Library/Application Support/Mendeley Desktop/Downloaded/Lin, Abeliuk, Ferrara - 2019 - Effects of Network Structure on Subjective Preference Diversity.pdf:pdf},
+isbn = {978-1-7281-0858-2},
+month = {dec},
+pages = {3026--3031},
+publisher = {IEEE},
+title = {{Effects of Network Structure on Subjective Preference Diversity}},
+url = {https://ieeexplore.ieee.org/document/9005454/},
+year = {2019}
+}
 @inproceedings{Tavabi2019,
 abstract = {The deep and darkweb (d2web) refers to limited access web sites that require registration, authentication, or more complex encryption protocols to access them. These web sites serve as hubs for a variety of illicit activities: to trade drugs, stolen user credentials, hacking tools, and to coordinate attacks and manipulation campaigns. Despite its importance to cyber crime, the d2web has not been systematically investigated. In this paper, we study a large corpus of messages posted to 80 d2web forums over a period of more than a year. We identify topics of discussion using LDA and use a non-parametric HMM to model the evolution of topics across forums. Then, we examine the dynamic patterns of discussion and identify forums with similar patterns. We show that our approach surfaces hidden similarities across different forums and can help identify anomalous events in this rich, heterogeneous data.},
 archivePrefix = {arXiv},
@@ -26,7 +79,7 @@ pages = {206--213},
 title = {{Characterizing activity on the deep and dark web}},
 year = {2019}
 }
-@misc{Muric2019,
+@inproceedings{Muric2019,
 abstract = {How does the number of collaborators affect individual productivity? Results of prior research have been conflicting, with some studies reporting an increase in individual productivity as the number of collaborators grows, while other studies showing that the free-rider effect skews the effort invested by individuals, making larger groups less productive. The difference between these schools of thought is substantial: if a super-scaling effect exists, as suggested by former studies, then as groups grow, their productivity will increase even faster than their size, super-linearly improving their efficiency. We address this question by studying two planetary-scale collaborative systems: GitHub and Wikipedia. By analyzing the activity of over 2 million users on these platforms, we discover that the interplay between group size and productivity exhibits complex, previously-unobserved dynamics: the productivity of smaller groups scales super-linearly with group size, but saturates at larger sizes. This effect is not an artifact of the heterogeneity of productivity: the relation between group size and productivity holds at the individual level. People tend to do more when collaborating with more people. We propose a generative model of individual productivity that captures the non-linearity in collaboration effort. The proposed model is able to explain and predict group work dynamics in GitHub and Wikipedia by capturing their maximally informative behavioral features, and it paves the way for a principled, data-driven science of collaboration.},
 archivePrefix = {arXiv},
 arxivId = {1911.11787},
@@ -39,6 +92,17 @@ keywords = {Collaboration,GitHub,Productivity,Software development,Teamwork,Wiki
 number = {CSCW},
 title = {{Collaboration drives individual productivity}},
 volume = {3},
+year = {2019}
+}
+@article{Abeliuk2019,
+abstract = {Algorithmic-matching sites offer users access to an unprecedented number of potential mates. However, they also pose a principal-agent problem with a potential moral hazard. The agent's interest is to maximize usage of the Web site, while the principal's interest is to find the best possible romantic partners. This creates a conflict of interest: optimally matching users would lead to stable couples and fewer singles using the site, which is detrimental for the online dating industry. Here, we borrow the notion of Price-of-Anarchy from game theory to quantify the decrease in social efficiency of online dating sites caused by the agent's self-interest. We derive theoretical bounds on the price-of-anarchy, showing it can be bounded by a constant that does not depend on the number of users of the dating site. This suggests that as online dating sites grow, their potential benefits scale up without sacrificing social efficiency. Further, we performed experiments involving human subjects in a matching market, and compared the social welfare achieved by an optimal matching service against a self-interest matching algorithm. We show that by introducing competition among dating sites, the selfish behavior of agents aligns with its users, and social efficiency increases.},
+journal = {arXiv},
+arxivId = {1901.03192},
+author = {Abeliuk, Andr{\'{e}}s and Elbassioni, Khaled and Rahwan, Talal and Cebrian, Manuel and Rahwan, Iyad},
+eprint = {1901.03192},
+month = {jan},
+title = {{Price of Anarchy in Algorithmic Matching of Romantic Partners}},
+url = {http://arxiv.org/abs/1901.03192},
 year = {2019}
 }
 @inproceedings{Morstatter2019,
@@ -67,6 +131,28 @@ pages = {197--203},
 title = {{A Computational Model of Commonsense Moral Decision Making}},
 year = {2018}
 }
+@inproceedings{Abeliuk2017,
+abstract = {Unpredictability is often portrayed as an undesirable outcome of social influence in cultural markets. Unpredictability stems from the “rich get richer” effect, whereby small fluctuations in the market share or popularity of products are amplified over time by social influence. In this paper, we report results of an experimental study that shows that unpredictability is not an inherent property of social influence. We investigate strategies for creating markets in which the popularity of products is better—and more predictably—aligned with their underlying quality. For our study, we created a cultural market of science stories and conducted randomized experiments on different policies for presenting the stories to study participants. Specifically, we varied how the stories were ranked, and whether or not participants were shown the ratings these stories received from others. We present a policy that leverages social influence and product positioning to help distinguish the product's market share (popularity) from underlying quality. Highlighting products with the highest estimated quality reduces the “rich get richer” effect highlighting popular products. We show that this policy allows us to more robustly and predictably identify high quality products and promote blockbusters. The policy can be used to create more efficient online cultural markets with a better allocation of resources to products.},
+author = {Abeliuk, Andr{\'{e}}s and Berbeglia, Gerardo and {Van Hentenryck}, Pascal and Hogg, Tad and Lerman, Kristina},
+booktitle = {26th International World Wide Web Conference, WWW 2017},
+doi = {10.1145/3038912.3052680},
+isbn = {9781450349130},
+title = {{Taming the unpredictability of cultural markets with social influence}},
+year = {2017}
+}
+@article{Alfonseca2016,
+abstract = {Superintelligence is a hypothetical agent that possesses intelligence far surpassing that of the brightest and most gifted human minds. In light of recent advances in machine intelligence, a number of scientists, philosophers and technologists have revived the discussion about the potential catastrophic risks entailed by such an entity. In this article, we trace the origins and development of the neo-fear of superintelligence, and some of the major proposals for its containment. We argue that such containment is, in principle, impossible, due to fundamental limits inherent to computing itself. Assuming that a superintelligence will contain a program that includes all the programs that can be executed by a universal Turing machine on input potentially as complex as the state of the world, strict containment requires simulations of such a program, something theoretically (and practically) infeasible.},
+journal = {arXiv},
+arxivId = {1607.00913},
+author = {Alfonseca, Manuel and Cebrian, Manuel and Anta, Antonio Fernandez and Coviello, Lorenzo and Abeliuk, Andres and Rahwan, Iyad},
+eprint = {1607.00913},
+file = {:Users/aabeliuk/Library/Application Support/Mendeley Desktop/Downloaded/Alfonseca et al. - 2016 - Superintelligence cannot be contained Lessons from Computability Theory.pdf:pdf},
+month = {jul},
+title = {{Superintelligence cannot be contained: Lessons from Computability Theory}},
+url = {http://arxiv.org/abs/1607.00913},
+year = {2016}
+}
+
 @inproceedings{van2015optimality,
 abstract = {Social influence is ubiquitous in cultural markets and plays an important role in recommendations for books, songs, and news articles to name only a few. Yet social influence is often presented in a bad light, often because it supposedly increases market unpredictability. Here we study a model of trial-offer markets, in which participants try products and later decide whether to purchase. We consider a simple policy which recovers product quality and ranks the products by quality when presenting them to market participants. We show that, in this setting, market efficiency always benefits from social influence. Moreover, we prove that the market converges almost surely to a monopoly for the product of highest quality, making the market both predictable and asymptotically optimal. Computational experiments confirm that the quality ranking policy quickly identifies "blockbusters", outperforms other policies, and is highly predictable.},
 author = {{Van Hentenryck}, Pascal and Abeliuk, Andr{\'{e}}s and Berbeglia, Franco and Maldonado, Felipe and Berbeglia, Gerardo},
