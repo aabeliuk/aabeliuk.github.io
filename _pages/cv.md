@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Computer Engineering (Masters Equivalent), University of Chile, 2011
+  * Thesis: On the Predictability and Efficiency of Cultural Markets with Social influence and Position Biases.
+* PhD in Computer Science, University of Melbourne, 2016
+  * Thesis: Compressed suffix trees for highly repetitive texts.   
 
 Work experience
 ======
