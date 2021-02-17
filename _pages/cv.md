@@ -21,14 +21,16 @@ Work experience
 * Research Scientist, University of Southern California, 2018 - 2020
 * Postdoctoral Associate, MIT, 2016 - 2017
   
-<!--- 
-Comment
-
+  
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+
+<!--- 
+Comment
   
 Talks
 ======
