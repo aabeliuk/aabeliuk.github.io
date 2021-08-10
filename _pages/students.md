@@ -1,11 +1,8 @@
 ---
-permalink: /
-title: " About me "
-excerpt: "About me"
+layout: archive
+title: "Students"
+permalink: /students/
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
   Hi! I am an Assistant Professor in the [Department of Computer Science](http://www.dcc.uchile.cl/) at the University of Chile.
