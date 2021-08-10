@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-  Hi! I am an Assistant Professor in the [Department of Computer Science] (https://www.dcc.uchile.cl/) at the University of Chile.
+  Hi! I am an Assistant Professor in the [Department of Computer Science](https://www.dcc.uchile.cl/) at the University of Chile.
   My research focuses on understanding the impact of algorithms in society and designing social computing systems by applying behavioral modeling, optimization, game theory, and online experiments to harness collective behavior towards more efficient social outcomes.  
 
   In 2017, I received my Ph.D in Computer Science from the University of Melbourne under the supervision of two great teachers that shaped my research interests: [Pascal Van Hentenryck](http://pwp.gatech.edu/pascal-van-hentenryck/) and [Gerardo Berbeglia](http://gerardo.berbeglia.com/). Together we worked in the analysis of behavioral models for choice under social influence in cultural markets. We have tackled the problem from a complexity, dynamic evolution and experimental perspective. My thesis focused on understanding, predicting and controlling the negative effects of social influence and algorithmic curation of content on the Web and in cultural markets.
