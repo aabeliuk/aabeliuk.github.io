@@ -470,3 +470,73 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
 .teaching-venue {
   color: $info-color;
 }
+
+/* ==========================================================================
+   TEACHING RESOURCES
+   ========================================================================== */
+
+.teaching-resources {
+  margin-top: 2.5em;
+
+  h2 {
+    border-bottom: 2px solid $gold-accent;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+  }
+}
+
+.resource-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.resource-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 1em 1.25em;
+  background: mix(#fff, $lighter-gray, 40%);
+  border-left: 4px solid transparent;
+  border-radius: $border-radius;
+  transition: border-left-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-left-color: $gold-accent;
+    background: #fff;
+    box-shadow: $box-shadow;
+  }
+}
+
+.resource-icon {
+  font-size: 1.6em;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 0.1em;
+}
+
+.resource-body {
+  flex: 1;
+}
+
+.resource-title {
+  margin: 0 0 0.3em;
+  font-size: $type-size-5;
+  font-weight: 700;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $info-color;
+    }
+  }
+}
+
+.resource-desc {
+  margin: 0;
+  font-size: $type-size-6;
+  color: $gray;
+  line-height: 1.5;
+}
