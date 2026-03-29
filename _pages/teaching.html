@@ -7,6 +7,20 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teaching-list">
+  {% assign courses = site.teaching | sort: "date" | reverse %}
+  {% for post in courses %}
+    {% unless post.permalink contains "2014" or post.permalink contains "2015" %}
+    <div class="teaching-item list__item">
+      <h3 class="archive__item-title">{{ post.title }}</h3>
+      <p class="teaching-meta">
+        <span class="teaching-years">{{ post.years }}</span>
+        &nbsp;·&nbsp;
+        <span class="teaching-type">{{ post.type }}</span>
+        <br>
+        <span class="teaching-venue">{{ post.venue }}</span>
+      </p>
+    </div>
+    {% endunless %}
+  {% endfor %}
+</div>

@@ -420,3 +420,53 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   margin-bottom: 0.5em;
   display: inline-block;
 }
+
+/* ==========================================================================
+   TEACHING PAGE
+   ========================================================================== */
+
+.teaching-list {
+  margin-top: 1em;
+}
+
+.teaching-item {
+  padding: 0.85em 1em 0.85em 1.25em;
+  margin-bottom: 0.75em;
+  border-left: 4px solid transparent;
+  background: mix(#fff, $lighter-gray, 40%);
+  border-radius: $border-radius;
+  transition: border-left-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-left-color: $gold-accent;
+    background: #fff;
+    box-shadow: $box-shadow;
+  }
+
+  h3.archive__item-title {
+    margin: 0 0 0.3em;
+    font-size: $type-size-5;
+    font-weight: 700;
+    color: $primary-color;
+  }
+}
+
+.teaching-meta {
+  margin: 0;
+  font-size: $type-size-6;
+  color: $muted-text-color;
+  line-height: 1.6;
+}
+
+.teaching-years {
+  font-weight: 600;
+  color: $primary-color;
+}
+
+.teaching-type {
+  font-style: italic;
+}
+
+.teaching-venue {
+  color: $info-color;
+}
