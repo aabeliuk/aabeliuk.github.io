@@ -91,14 +91,16 @@ author_profile: true
       {% assign status_label = "Published" %}
     {% endif %}
     <li class="pub-list__item">
-      <span class="pub-status-tag pub-status-tag--{{ status_label | downcase }}">{{ status_label }}</span>
-      <span class="pub-list__title">
-        {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}
-      </span>
-      <span class="pub-list__meta"><em>{{ post.venue }}</em> &middot; {{ post.date | date: "%Y" }}</span>
-      {% if post.theme %}
-      <span class="theme-badge theme-badge--{{ post.theme | slugify }}">{{ post.theme }}</span>
-      {% endif %}
+      <div class="pub-list__top">
+        <span class="pub-status-tag pub-status-tag--{{ status_label | downcase }}">{{ status_label }}</span>
+        <span class="pub-list__title">
+          {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}
+        </span>
+      </div>
+      <div class="pub-list__bottom">
+        <span class="pub-list__meta"><em>{{ post.venue }}</em> &middot; {{ post.date | date: "%Y" }}</span>
+        {% if post.theme %}<span class="theme-badge theme-badge--{{ post.theme | slugify }}">{{ post.theme }}</span>{% endif %}
+      </div>
     </li>
   {% endfor %}
   </ul>
