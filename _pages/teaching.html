@@ -7,24 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="teaching-list">
-  {% assign courses = site.teaching | sort: "date" | reverse %}
-  {% for post in courses %}
-    {% unless post.permalink contains "2014" or post.permalink contains "2015" %}
-    <div class="teaching-item list__item">
-      <h3 class="archive__item-title">{{ post.title }}</h3>
-      <p class="teaching-meta">
-        <span class="teaching-years">{{ post.years }}</span>
-        &nbsp;·&nbsp;
-        <span class="teaching-type">{{ post.type }}</span>
-        <br>
-        <span class="teaching-venue">{{ post.venue }}</span>
-      </p>
-    </div>
-    {% endunless %}
-  {% endfor %}
-</div>
-
 <section class="teaching-resources">
   <h2>Resources</h2>
   <div class="resource-list">
@@ -55,3 +37,22 @@ author_profile: true
 
   </div>
 </section>
+
+<h2>Courses</h2>
+<div class="teaching-list">
+  {% assign courses = site.teaching | sort: "date" | reverse %}
+  {% for post in courses %}
+    {% unless post.permalink contains "2014" or post.permalink contains "2015" %}
+    <div class="teaching-item list__item">
+      <h3 class="archive__item-title">{{ post.title }}</h3>
+      <p class="teaching-meta">
+        <span class="teaching-years">{{ post.years }}</span>
+        &nbsp;·&nbsp;
+        <span class="teaching-type">{{ post.type }}</span>
+        <br>
+        <span class="teaching-venue">{{ post.venue }}</span>
+      </p>
+    </div>
+    {% endunless %}
+  {% endfor %}
+</div>
