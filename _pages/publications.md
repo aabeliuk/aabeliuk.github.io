@@ -96,6 +96,9 @@ author_profile: true
         {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>{% else %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endif %}
       </span>
       <span class="pub-list__meta"><em>{{ post.venue }}</em> &middot; {{ post.date | date: "%Y" }}</span>
+      {% if post.theme %}
+      <span class="theme-badge theme-badge--{{ post.theme | slugify }}">{{ post.theme }}</span>
+      {% endif %}
     </li>
   {% endfor %}
   </ul>
