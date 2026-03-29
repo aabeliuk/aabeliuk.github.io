@@ -7,6 +7,18 @@ layout: compress
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
+    <!-- Load Lato font before any other stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after,
+      body, html,
+      h1, h2, h3, h4, h5, h6,
+      p, li, a, span, div, button, input, textarea, select {
+        font-family: "Lato", -apple-system, "Helvetica Neue", Arial, sans-serif !important;
+      }
+    </style>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
