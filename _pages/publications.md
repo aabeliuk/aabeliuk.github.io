@@ -89,7 +89,7 @@ author_profile: true
   {% for post in selected_pubs %}
     {% if post.status %}
       {% assign status_label = post.status %}
-    {% elsif post.paperurl contains "arxiv" %}
+    {% elsif post.paperurl and post.paperurl contains "arxiv" %}
       {% assign status_label = "Preprint" %}
     {% else %}
       {% assign status_label = "Published" %}
