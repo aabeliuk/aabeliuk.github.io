@@ -23,7 +23,11 @@ author_profile: true
 | # | Student | Program | Topic |
 |---|---------|---------|-------|
 | 1 | Meilin Inostroza M. | Magíster en Tecnologías de la Información | Análisis y Propuestas de mejora para la zona de pago en supermercados |
-| 2 | Salvador Alveal | Explorando Variaciones en Comportamientos de Usuario para disminuir Efecto Homogeneizador en Sistemas de Recomendación |
+| 2 | Salvador Alveal | Magíster en Ciencias, mención Computación  | Explorando Variaciones en Comportamientos de Usuario para disminuir Efecto Homogeneizador en Sistemas de Recomendación |
+| 3 | Monserrat Prado | Magíster en Ciencias, mención Computación | Clasificación tabular con modelos de lenguaje para futuros trabajos en interpretabilidad |
+| 4 | Fabrizzio Pezzolla |  Magíster en Ciencia de Datos  | Evaluating peer-sourced conditioning for closed-ended llm survey response simulation in chile |
+| 5 | Felipe Hernández |  Magíster en Ciencia de Datos  | Detección y mitigación de sesgos culturales inducidos por nombres en Modelos de Lenguaje Grandes |
+
 
 ## Master's — Graduated
 
@@ -55,8 +59,7 @@ author_profile: true
 | 6 | Manuel O. Pou | Desarrollo de un Sistema Automatizado para la Corrección de Pruebas Matemáticas |
 | 7 | David Parada M. | Desarrollo de Apunte Interactivo de Matemáticas |
 | 8 | Ignacio Pinto | Desarrollo de Motor para Apunte Interactivo de Matemáticas Utilizando Theorem Prover |
-| 9 | Monserrat Prado | Clasificación tabular con modelos de lenguaje para futuros trabajos en interpretabilidad |
-| 10 | Alexander J. Walmsley | Simulación de red social mediante agentes generativos con modelos de lenguaje grandes |
+| 9 | Alexander J. Walmsley | Simulación de red social mediante agentes generativos con modelos de lenguaje grandes |
 
 ## Engineering — Graduated
 
