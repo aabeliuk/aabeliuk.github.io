@@ -204,6 +204,22 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   color: $gold-accent;
   background: mix(#fff, $gold-accent, 88%);
   border-radius: $border-radius;
+
+  &--published {
+    color: darken($theme-ml, 8%);
+    background: mix(#fff, $theme-ml, 88%);
+  }
+}
+
+.pub-venue-inline {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  font-size: $type-size-7;
+  font-style: italic;
+  color: $gray;
+  background: mix(#fff, $lighter-gray, 30%);
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
 }
 
 .ongoing-title {
