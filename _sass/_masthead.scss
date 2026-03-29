@@ -4,7 +4,8 @@
 
 .masthead {
   position: relative;
-  background-color: $primary-color;
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
   border-bottom: 3px solid $gold-accent;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
