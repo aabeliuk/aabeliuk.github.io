@@ -18,32 +18,6 @@ author_profile: true
   {% endif %}
 </div>
 
-<!-- RESEARCH THEMES -->
-<section class="research-themes">
-  <h2>Research Themes</h2>
-  <div class="theme-grid">
-    <button class="theme-card theme-card--active" data-filter="all">
-      <span class="theme-icon">🔭</span>
-      <span class="theme-label">All</span>
-    </button>
-    <button class="theme-card" data-filter="ai-society">
-      <span class="theme-icon">🤖</span>
-      <span class="theme-label">AI &amp; Society</span>
-    </button>
-    <button class="theme-card" data-filter="computational-social-science">
-      <span class="theme-icon">🌐</span>
-      <span class="theme-label">Computational Social Science</span>
-    </button>
-    <button class="theme-card" data-filter="machine-learning">
-      <span class="theme-icon">📊</span>
-      <span class="theme-label">Machine Learning</span>
-    </button>
-    <button class="theme-card" data-filter="network-science">
-      <span class="theme-icon">🕸️</span>
-      <span class="theme-label">Network Science</span>
-    </button>
-  </div>
-</section>
 
 <!-- ONGOING WORK -->
 <section class="ongoing-work pub-section" id="ongoing">
@@ -129,44 +103,3 @@ author_profile: true
   {% endfor %}
 </section>
 
-<!-- ALL PUBLICATIONS (filterable by theme) -->
-<section class="all-pubs pub-section" id="all">
-  <h2>All Publications</h2>
-
-  <div id="pub-list">
-    {% assign all_pubs = site.publications | sort: "date" | reverse %}
-    {% for post in all_pubs %}
-      <div class="list__item pub-item" data-theme="{{ post.theme | slugify }}">
-        {% include archive-single.html %}
-        <span class="theme-badge theme-badge--{{ post.theme | slugify }} pub-item__badge">{{ post.theme }}</span>
-      </div>
-    {% endfor %}
-  </div>
-</section>
-
-<script>
-(function() {
-  var buttons = document.querySelectorAll('.theme-card');
-  var items   = document.querySelectorAll('.pub-item');
-  var selectedSection = document.querySelector('.selected-pubs');
-
-  buttons.forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var filter = this.dataset.filter;
-
-      buttons.forEach(function(b) { b.classList.remove('theme-card--active'); });
-      this.classList.add('theme-card--active');
-
-      // Show/hide all-pubs items
-      items.forEach(function(item) {
-        item.style.display = (filter === 'all' || item.dataset.theme === filter) ? '' : 'none';
-      });
-
-      // Show/hide selected section
-      if (selectedSection) {
-        selectedSection.style.display = (filter === 'all') ? '' : 'none';
-      }
-    });
-  });
-})();
-</script>
