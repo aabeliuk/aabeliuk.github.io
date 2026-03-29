@@ -26,19 +26,19 @@ author_profile: true
       <span class="theme-icon">🔭</span>
       <span class="theme-label">All</span>
     </button>
-    <button class="theme-card" data-filter="AI & Society">
+    <button class="theme-card" data-filter="ai-society">
       <span class="theme-icon">🤖</span>
       <span class="theme-label">AI &amp; Society</span>
     </button>
-    <button class="theme-card" data-filter="Computational Social Science">
+    <button class="theme-card" data-filter="computational-social-science">
       <span class="theme-icon">🌐</span>
       <span class="theme-label">Computational Social Science</span>
     </button>
-    <button class="theme-card" data-filter="Machine Learning">
+    <button class="theme-card" data-filter="machine-learning">
       <span class="theme-icon">📊</span>
       <span class="theme-label">Machine Learning</span>
     </button>
-    <button class="theme-card" data-filter="Network Science">
+    <button class="theme-card" data-filter="network-science">
       <span class="theme-icon">🕸️</span>
       <span class="theme-label">Network Science</span>
     </button>
@@ -123,7 +123,7 @@ author_profile: true
   <div id="pub-list">
     {% assign all_pubs = site.publications | sort: "date" | reverse %}
     {% for post in all_pubs %}
-      <div class="list__item pub-item" data-theme="{{ post.theme }}">
+      <div class="list__item pub-item" data-theme="{{ post.theme | slugify }}">
         {% include archive-single.html %}
         <span class="theme-badge theme-badge--{{ post.theme | slugify }} pub-item__badge">{{ post.theme }}</span>
       </div>
