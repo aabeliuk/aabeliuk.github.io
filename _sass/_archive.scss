@@ -42,6 +42,8 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  font-weight: 700;
+  color: $primary-color;
 
   a + a {
     opacity: 0.5;
@@ -90,6 +92,19 @@
    ========================================================================== */
 
 .list__item {
+  padding: 0.85em 1em 0.85em 1.25em;
+  margin-bottom: 0.75em;
+  border-left: 4px solid transparent;
+  border-radius: 0 $border-radius $border-radius 0;
+  background: mix(#fff, $lighter-gray, 40%);
+  transition: $global-transition;
+
+  &:hover {
+    border-left-color: $gold-accent;
+    background: #fff;
+    box-shadow: $box-shadow;
+  }
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
