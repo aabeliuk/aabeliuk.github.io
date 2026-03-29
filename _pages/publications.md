@@ -83,23 +83,23 @@ author_profile: true
 <!-- SELECTED PUBLICATIONS -->
 <section class="selected-pubs pub-section" id="selected">
   <h2>Selected Publications</h2>
-  <p class="section-desc">Highlighted work across research themes.</p>
 
+  <ul class="pub-list">
   {% assign selected_pubs = site.publications | where_exp: "pub", "pub.selected == true" | sort: "date" | reverse %}
   {% for post in selected_pubs %}
-    <div class="pub-card pub-card--selected" data-theme="{{ post.theme }}">
-      <div class="pub-card__header">
-        <span class="theme-badge theme-badge--{{ post.theme | slugify }}">{{ post.theme }}</span>
-        <span class="pub-year">{{ post.date | date: "%Y" }}</span>
-      </div>
-      <h3 class="pub-card__title">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      <p class="pub-card__venue"><em>{{ post.venue }}</em></p>
-      {% if post.excerpt %}
-        <p class="pub-card__excerpt">{{ post.excerpt | truncate: 220 }}</p>
-      {% endif %}
-    </div>
+    {% if post.status %}
+      {% assign status_label = post.status %}
+    {% elsif post.paperurl contains "arxiv" %}
+      {% assign status_label = "Preprint" %}
+    {% else %}
+      {% assign status_label = "Published" %}
+    {% endif %}
+    <li class="pub-list__item">
+      <span class="pub-status-tag pub-status-tag--{{ status_label | downcase }}">{{ status_label }}</span>
+      <span class="pub-list__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></span>
+      <span class="pub-list__meta"><em>{{ post.venue }}</em> &middot; {{ post.date | date: "%Y" }}</span>
+    </li>
   {% endfor %}
+  </ul>
 </section>
 

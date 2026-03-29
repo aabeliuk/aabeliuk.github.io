@@ -245,7 +245,74 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
 
 
 /*
-   Selected publication cards
+   Selected publications list
+   ========================================================================== */
+
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-list__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em;
+  padding: 0.75em 0;
+  border-bottom: 1px solid $border-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.pub-list__title {
+  font-size: $type-size-5;
+  font-weight: 600;
+  flex: 1 1 60%;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $info-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-list__meta {
+  font-size: $type-size-6;
+  color: $gray;
+  white-space: nowrap;
+}
+
+.pub-status-tag {
+  display: inline-block;
+  padding: 0.15em 0.55em;
+  font-size: $type-size-7;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: $border-radius;
+  white-space: nowrap;
+
+  &--published {
+    color: darken($theme-ml, 8%);
+    background: mix(#fff, $theme-ml, 88%);
+  }
+
+  &--preprint {
+    color: darken($gold-accent, 10%);
+    background: mix(#fff, $gold-accent, 88%);
+  }
+}
+
+
+/*
+   Selected publication cards (kept for potential reuse)
    ========================================================================== */
 
 .pub-card {
