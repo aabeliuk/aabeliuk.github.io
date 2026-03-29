@@ -1,5 +1,19 @@
 {% include base_path %}
 
+<!-- Google Fonts: Lato (loaded before any other stylesheet) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+<!-- Force Lato across the entire site -->
+<style>
+  body, h1, h2, h3, h4, h5, h6,
+  .masthead, .greedy-nav a, .page__title,
+  .sidebar, .author__name, .nav__list,
+  p, li, span, a, div {
+    font-family: "Lato", -apple-system, sans-serif !important;
+  }
+</style>
+
 <!-- start custom head snippets -->
 
 <link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
