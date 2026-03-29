@@ -129,6 +129,18 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   @include breakpoint($large) {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  &--infographic {
+    grid-template-columns: 1fr;
+
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint($large) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }
 
 .ongoing-card {
@@ -143,6 +155,41 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   &:hover {
     box-shadow: 0 4px 16px rgba($primary-color, 0.12);
     transform: translateY(-2px);
+  }
+
+  &--infographic {
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+}
+
+/* Infographic image inside card */
+.infographic-wrap {
+  margin-top: 1.25em;
+  margin-left: -1.4em;
+  margin-right: -1.4em;
+  border-top: 1px solid $border-color;
+  overflow: hidden;
+  border-radius: 0 0 $border-radius $border-radius;
+  cursor: zoom-in;
+
+  &:hover .infographic-img {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+}
+
+.infographic-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.3s ease;
+
+  @include breakpoint($large) {
+    max-height: 380px;
   }
 }
 

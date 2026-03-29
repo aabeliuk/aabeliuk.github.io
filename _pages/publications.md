@@ -49,35 +49,44 @@ author_profile: true
 <section class="ongoing-work pub-section" id="ongoing">
   <h2>Ongoing Work</h2>
   <p class="section-desc">Current projects under development or review.</p>
-  <div class="ongoing-grid">
+  <div class="ongoing-grid ongoing-grid--infographic">
 
-    <div class="ongoing-card">
+    <div class="ongoing-card ongoing-card--infographic">
       <div class="ongoing-status">In progress</div>
-      <h3 class="ongoing-title">Algorithmic Fairness in Recommendation Systems</h3>
-      <p class="ongoing-desc">Investigating how content ranking algorithms amplify or mitigate inequality in information exposure across different demographic groups.</p>
+      <h3 class="ongoing-title">The Geographic Bias Gap: Evaluating Fairness in LLM-Generated Surveys</h3>
+      <p class="ongoing-desc">LLMs excel at simulating macro-level social patterns but consistently show a U.S.-centric bias and significant fairness disparities across gender, education, and political identity when applied to Chilean populations.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
+        <span class="theme-badge theme-badge--computational-social-science">Computational Social Science</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-geographic-bias.png" alt="The Geographic Bias Gap infographic" class="infographic-img" loading="lazy">
+      </div>
+    </div>
+
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status">In progress</div>
+      <h3 class="ongoing-title">Decoding Recommender Systems: Measuring Predictability through Structural Complexity</h3>
+      <p class="ongoing-desc">Introduces data-driven metrics — Analytical Structural Consistency (ASC) and Empirical Structural Consistency (ESC) — that use SVD to determine an algorithm's maximum achievable precision, showing &gt;0.90 correlation with top-tier algorithm performance.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--machine-learning">Machine Learning</span>
+        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-recommender-systems.png" alt="Decoding Recommender Systems infographic" class="infographic-img" loading="lazy">
+      </div>
+    </div>
+
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status">In progress</div>
+      <h3 class="ongoing-title">The LLM Attribution Crisis: Why Tracing AI Attacks is Becoming Impossible</h3>
+      <p class="ongoing-desc">Demonstrates that attributing AI-generated content to a specific model is computationally intractable: the hypothesis space doubles every ~0.5 years, and attributing one year of U.S. AI output would require 200 years of non-stop supercomputing.</p>
       <div class="ongoing-themes">
         <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
         <span class="theme-badge theme-badge--machine-learning">Machine Learning</span>
       </div>
-    </div>
-
-    <div class="ongoing-card">
-      <div class="ongoing-status">In progress</div>
-      <h3 class="ongoing-title">Social Influence and Opinion Dynamics in Digital Networks</h3>
-      <p class="ongoing-desc">Modeling how algorithmic curation interacts with social influence to shape collective belief formation and preference diversity online.</p>
-      <div class="ongoing-themes">
-        <span class="theme-badge theme-badge--computational-social-science">Computational Social Science</span>
-        <span class="theme-badge theme-badge--network-science">Network Science</span>
-      </div>
-    </div>
-
-    <div class="ongoing-card">
-      <div class="ongoing-status">Under review</div>
-      <h3 class="ongoing-title">Collective Intelligence and Human-AI Collaboration</h3>
-      <p class="ongoing-desc">Studying how AI tools affect collective problem-solving and the emergence of group intelligence in large-scale collaborative platforms.</p>
-      <div class="ongoing-themes">
-        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
-        <span class="theme-badge theme-badge--computational-social-science">Computational Social Science</span>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-llm-attribution.png" alt="LLM Attribution Crisis infographic" class="infographic-img" loading="lazy">
       </div>
     </div>
 
