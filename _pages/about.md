@@ -153,7 +153,22 @@ Hi! I am an Assistant Professor in the [Department of Computer Science](http://w
 
 </div>
 
-<div style="text-align: center; margin-top: 2em;">
-  <img src="/images/coauthor_network.png" alt="Coauthor Network" style="max-width: 100%; border-radius: 4px;">
-  <p style="font-size: 0.85em; color: #888; margin-top: 0.5em;">Coauthor network</p>
+<div style="margin-top: 2.5em;">
+  <p style="font-size: 0.82em; font-weight: 700; letter-spacing: 0.05em; color: #c9a227; text-transform: uppercase; margin-bottom: 0.6em;">Coauthor Network</p>
+  <img src="/images/coauthor_network.png"
+       alt="Coauthor Network"
+       class="js-lightbox-trigger"
+       style="width: 100%; border-radius: 4px; cursor: zoom-in; display: block;">
+  <p style="font-size: 0.8em; color: #888; margin-top: 0.4em; text-align: center;">Click to zoom</p>
 </div>
+
+<!-- Lightbox modal -->
+<div id="infographic-lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+  <div class="lightbox__backdrop" id="lightbox-backdrop"></div>
+  <div class="lightbox__content">
+    <img src="" alt="" id="lightbox-img" class="lightbox__img">
+  </div>
+</div>
+
+<script src="/assets/js/lightbox.js" defer></script>
