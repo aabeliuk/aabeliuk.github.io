@@ -73,6 +73,52 @@ author_profile: true
       </div>
     </div>
 
+
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status ongoing-status--published">Published</div>
+      <h3 class="ongoing-title">
+        <a href="https://dl.acm.org/doi/10.1145/3627985" target="_blank">Price of Anarchy in Algorithmic Matching of Romantic Partners</a>
+      </h3>
+      <p class="ongoing-desc">Borrows the Price-of-Anarchy concept from game theory to quantify how self-interest in online dating algorithms reduces social efficiency — and shows that market competition aligns agent incentives with user welfare.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
+        <span class="pub-venue-inline">ACM TEAC &middot; 2024</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-dating.png" alt="Price of Anarchy in Dating infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
+      </div>
+    </div>
+
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status">Preprint</div>
+      <h3 class="ongoing-title">
+        <a href="https://arxiv.org/abs/2504.05335" target="_blank">Impact of Price Inflation on Algorithmic Collusion through Reinforcement Learning Agents</a>
+      </h3>
+      <p class="ongoing-desc">Shows that RL-based pricing agents can sustain supra-competitive prices and amplify collusive behavior under inflationary shocks — raising new concerns about autonomous pricing in economic markets.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
+        <span class="pub-venue-inline">arXiv &middot; 2025</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-collusion.png" alt="Algorithmic Collusion infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
+      </div>
+    </div>
+
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status">Preprint</div>
+      <h3 class="ongoing-title">
+        <a href="https://arxiv.org/abs/2501.16247" target="_blank">Zero-shot Decision Tree Construction via Large Language Models</a>
+      </h3>
+      <p class="ongoing-desc">Proposes a zero-shot method for building interpretable decision trees using LLMs — no labeled training data required — enabling explainable classification in low-resource settings.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--machine-learning">Machine Learning</span>
+        <span class="pub-venue-inline">arXiv &middot; 2025</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-llm-tree.png" alt="Zero-shot Decision Tree infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
+      </div>
+    </div>
+
   </div>
 
   <!-- Remaining selected publications -->

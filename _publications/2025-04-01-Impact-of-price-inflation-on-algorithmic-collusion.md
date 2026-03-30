@@ -8,4 +8,5 @@ paperurl: 'https://arxiv.org/abs/2504.05335'
 excerpt: 'Studies how reinforcement learning pricing agents respond to inflationary shocks, showing that RL agents can sustain supra-competitive prices and amplify collusive behavior under inflation.'
 theme: 'AI & Society'
 selected: true
+has_infographic: true
 ---
