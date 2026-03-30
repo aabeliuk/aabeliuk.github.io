@@ -37,9 +37,7 @@ author_profile: true
         <span class="pub-venue-inline">PLOS Complex Systems &middot; 2026</span>
       </div>
       <div class="infographic-wrap">
-        <a href="https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000085" target="_blank">
-          <img src="/images/infographics/infographic-llm-attribution.png" alt="LLM Attribution infographic" class="infographic-img" loading="lazy">
-        </a>
+        <img src="/images/infographics/infographic-llm-attribution.png" alt="LLM Attribution infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
       </div>
     </div>
 
@@ -55,9 +53,7 @@ author_profile: true
         <span class="pub-venue-inline">arXiv &middot; 2025</span>
       </div>
       <div class="infographic-wrap">
-        <a href="https://arxiv.org/abs/2501.15351" target="_blank">
-          <img src="/images/infographics/infographic-geographic-bias.png" alt="Fairness in LLM Surveys infographic" class="infographic-img" loading="lazy">
-        </a>
+        <img src="/images/infographics/infographic-geographic-bias.png" alt="Fairness in LLM Surveys infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
       </div>
     </div>
 
@@ -73,9 +69,7 @@ author_profile: true
         <span class="pub-venue-inline">arXiv &middot; 2024</span>
       </div>
       <div class="infographic-wrap">
-        <a href="https://arxiv.org/abs/2404.08829" target="_blank">
-          <img src="/images/infographics/infographic-recommender-systems.png" alt="Recommender Systems Predictability infographic" class="infographic-img" loading="lazy">
-        </a>
+        <img src="/images/infographics/infographic-recommender-systems.png" alt="Recommender Systems Predictability infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
       </div>
     </div>
 
@@ -105,3 +99,48 @@ author_profile: true
   {% endfor %}
   </ul>
 </section>
+
+<!-- Lightbox modal -->
+<div id="infographic-lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Infographic viewer">
+  <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+  <div class="lightbox__backdrop" id="lightbox-backdrop"></div>
+  <div class="lightbox__content">
+    <img src="" alt="" id="lightbox-img" class="lightbox__img">
+  </div>
+</div>
+
+<script>
+(function() {
+  var lightbox  = document.getElementById('infographic-lightbox');
+  var lbImg     = document.getElementById('lightbox-img');
+  var lbClose   = document.getElementById('lightbox-close');
+  var lbBackdrop = document.getElementById('lightbox-backdrop');
+
+  function openLightbox(src, alt) {
+    lbImg.src = src;
+    lbImg.alt = alt || '';
+    lightbox.classList.add('lightbox--open');
+    document.body.style.overflow = 'hidden';
+    lbClose.focus();
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('lightbox--open');
+    document.body.style.overflow = '';
+  }
+
+  // Attach click to all trigger images
+  document.querySelectorAll('.js-lightbox-trigger').forEach(function(img) {
+    img.addEventListener('click', function() {
+      openLightbox(img.src, img.alt);
+    });
+  });
+
+  lbClose.addEventListener('click', closeLightbox);
+  lbBackdrop.addEventListener('click', closeLightbox);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeLightbox();
+  });
+})();
+</script>

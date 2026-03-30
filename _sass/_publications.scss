@@ -171,7 +171,6 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   border-top: 1px solid $border-color;
   overflow: hidden;
   border-radius: 0 0 $border-radius $border-radius;
-  cursor: zoom-in;
 
   &:hover .infographic-img {
     transform: scale(1.02);
@@ -187,6 +186,7 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   object-fit: cover;
   object-position: top;
   transition: transform 0.3s ease;
+  cursor: zoom-in;
 
   @include breakpoint($large) {
     max-height: 380px;
@@ -435,6 +435,77 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   margin-bottom: 0.5em;
   display: inline-block;
 }
+
+/* ==========================================================================
+   LIGHTBOX
+   ========================================================================== */
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+
+  &--open {
+    display: flex;
+  }
+}
+
+.lightbox__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  cursor: zoom-out;
+}
+
+.lightbox__content {
+  position: relative;
+  z-index: 1;
+  max-width: 92vw;
+  max-height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox__img {
+  max-width: 92vw;
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: $border-radius;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  display: block;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  padding: 0;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+}
+
 
 /* ==========================================================================
    TEACHING PAGE
