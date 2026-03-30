@@ -9,6 +9,9 @@ main:
   - title: "Students"
     url: /students/
 
+  - title: "Join"
+    url: /join/
+
   - title: "Blog Posts"
     url: /year-archive/
     
