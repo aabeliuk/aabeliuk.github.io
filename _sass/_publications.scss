@@ -479,6 +479,7 @@ $theme-ns         : #8e44ad;   /* purple — Network Science */
   border-radius: $border-radius;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
   display: block;
+  background-color: #fff; // show white behind transparent PNGs
 }
 
 .lightbox__close {
