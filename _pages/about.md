@@ -20,4 +20,8 @@ redirect_from:
 
 
   <!-- In 2012, I got the degree of Civil Engineer in Computer Science from the [University of Chile](http://www.dcc.uchile.cl/), under the supervision of [Gonzalo Navarro](https://users.dcc.uchile.cl/~gnavarro/). During that time, we worked together in compressed data structures tailored for pattern matching in Bioinformatics applications.  -->
-           
+
+<div style="text-align: center; margin-top: 2em;">
+  <img src="/images/coauthor_network.png" alt="Coauthor Network" style="max-width: 100%; border-radius: 4px;">
+  <p style="font-size: 0.85em; color: #888; margin-top: 0.5em;">Coauthor network</p>
+</div>
