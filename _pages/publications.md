@@ -111,10 +111,16 @@ author_profile: true
 
 <script>
 (function() {
-  var lightbox  = document.getElementById('infographic-lightbox');
-  var lbImg     = document.getElementById('lightbox-img');
-  var lbClose   = document.getElementById('lightbox-close');
+  var lightbox   = document.getElementById('infographic-lightbox');
+  var lbImg      = document.getElementById('lightbox-img');
+  var lbClose    = document.getElementById('lightbox-close');
   var lbBackdrop = document.getElementById('lightbox-backdrop');
+
+  if (!lightbox || !lbImg || !lbClose || !lbBackdrop) return;
+
+  // Move lightbox to <body> so it sits in the root stacking context,
+  // avoiding z-index conflicts with #main's animation stacking context.
+  document.body.appendChild(lightbox);
 
   function openLightbox(src, alt) {
     lbImg.src = src;
@@ -129,7 +135,6 @@ author_profile: true
     document.body.style.overflow = '';
   }
 
-  // Attach click to all trigger images
   document.querySelectorAll('.js-lightbox-trigger').forEach(function(img) {
     img.addEventListener('click', function() {
       openLightbox(img.src, img.alt);
