@@ -8,4 +8,5 @@ paperurl: 'https://dl.acm.org/doi/full/10.1145/3736160'
 excerpt: 'Evaluates LLMs for crisis event classification under zero and few-shot conditions, demonstrating competitive performance against supervised baselines for multilingual disaster response applications.'
 theme: 'AI & Society'
 selected: true
+has_infographic: true
 ---

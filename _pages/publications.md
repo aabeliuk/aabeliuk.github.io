@@ -25,6 +25,7 @@ author_profile: true
   <!-- Featured papers with infographics -->
   <div class="ongoing-grid ongoing-grid--infographic">
 
+    <!-- 2026 -->
     <div class="ongoing-card ongoing-card--infographic">
       <div class="ongoing-status ongoing-status--published">Published</div>
       <h3 class="ongoing-title">
@@ -41,6 +42,7 @@ author_profile: true
       </div>
     </div>
 
+    <!-- 2025 -->
     <div class="ongoing-card ongoing-card--infographic">
       <div class="ongoing-status">Preprint</div>
       <h3 class="ongoing-title">
@@ -54,38 +56,6 @@ author_profile: true
       </div>
       <div class="infographic-wrap">
         <img src="/images/infographics/infographic-geographic-bias.png" alt="Fairness in LLM Surveys infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
-      </div>
-    </div>
-
-    <div class="ongoing-card ongoing-card--infographic">
-      <div class="ongoing-status">Preprint</div>
-      <h3 class="ongoing-title">
-        <a href="https://arxiv.org/abs/2404.08829" target="_blank">Measuring the Predictability of Recommender Systems using Structural Complexity Metrics</a>
-      </h3>
-      <p class="ongoing-desc">Introduces data-driven metrics that use SVD to determine an algorithm's maximum achievable precision, showing &gt;0.90 correlation with top-tier algorithm performance.</p>
-      <div class="ongoing-themes">
-        <span class="theme-badge theme-badge--machine-learning">Machine Learning</span>
-        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
-        <span class="pub-venue-inline">arXiv &middot; 2024</span>
-      </div>
-      <div class="infographic-wrap">
-        <img src="/images/infographics/infographic-recommender-systems.png" alt="Recommender Systems Predictability infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
-      </div>
-    </div>
-
-
-    <div class="ongoing-card ongoing-card--infographic">
-      <div class="ongoing-status ongoing-status--published">Published</div>
-      <h3 class="ongoing-title">
-        <a href="https://dl.acm.org/doi/10.1145/3627985" target="_blank">Price of Anarchy in Algorithmic Matching of Romantic Partners</a>
-      </h3>
-      <p class="ongoing-desc">Borrows the Price-of-Anarchy concept from game theory to quantify how self-interest in online dating algorithms reduces social efficiency — and shows that market competition aligns agent incentives with user welfare.</p>
-      <div class="ongoing-themes">
-        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
-        <span class="pub-venue-inline">ACM TEAC &middot; 2024</span>
-      </div>
-      <div class="infographic-wrap">
-        <img src="/images/infographics/infographic-dating.png" alt="Price of Anarchy in Dating infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
       </div>
     </div>
 
@@ -122,7 +92,7 @@ author_profile: true
     <div class="ongoing-card ongoing-card--infographic">
       <div class="ongoing-status">Preprint</div>
       <h3 class="ongoing-title">
-        <a href="https://arxiv.org/abs/2510.11524">Networks Multiscale Entropy Analysis</a>
+        <a href="https://arxiv.org/abs/2510.11524" target="_blank">Networks Multiscale Entropy Analysis</a>
       </h3>
       <p class="ongoing-desc">Develops a multiscale entropy framework for analyzing the structural complexity of networks across different organizational scales, with applications to social and biological networks.</p>
       <div class="ongoing-themes">
@@ -131,6 +101,69 @@ author_profile: true
       </div>
       <div class="infographic-wrap">
         <img src="/images/infographics/infographic-multiscale.png" alt="Multiscale Entropy Networks infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
+      </div>
+    </div>
+
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status ongoing-status--published">Published</div>
+      <h3 class="ongoing-title">
+        <a href="https://dl.acm.org/doi/full/10.1145/3736160" target="_blank">Large Language Models in Crisis Informatics for Zero and Few-Shot Classification</a>
+      </h3>
+      <p class="ongoing-desc">Evaluates LLMs for crisis event classification under zero and few-shot conditions, demonstrating competitive performance against supervised baselines for multilingual disaster response applications.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
+        <span class="pub-venue-inline">ACM Transactions on the Web &middot; 2025</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-crisis.png" alt="LLMs in Crisis Informatics infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
+      </div>
+    </div>
+
+    <!-- 2024 -->
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status">Preprint</div>
+      <h3 class="ongoing-title">
+        <a href="https://arxiv.org/abs/2404.08829" target="_blank">Measuring the Predictability of Recommender Systems using Structural Complexity Metrics</a>
+      </h3>
+      <p class="ongoing-desc">Introduces data-driven metrics that use SVD to determine an algorithm's maximum achievable precision, showing &gt;0.90 correlation with top-tier algorithm performance.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--machine-learning">Machine Learning</span>
+        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
+        <span class="pub-venue-inline">arXiv &middot; 2024</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-recommender-systems.png" alt="Recommender Systems Predictability infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
+      </div>
+    </div>
+
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status ongoing-status--published">Published</div>
+      <h3 class="ongoing-title">
+        <a href="https://dl.acm.org/doi/10.1145/3627985" target="_blank">Price of Anarchy in Algorithmic Matching of Romantic Partners</a>
+      </h3>
+      <p class="ongoing-desc">Borrows the Price-of-Anarchy concept from game theory to quantify how self-interest in online dating algorithms reduces social efficiency — and shows that market competition aligns agent incentives with user welfare.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--ai-society">AI &amp; Society</span>
+        <span class="pub-venue-inline">ACM TEAC &middot; 2024</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-dating.png" alt="Price of Anarchy in Dating infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
+      </div>
+    </div>
+
+    <!-- 2022 -->
+    <div class="ongoing-card ongoing-card--infographic">
+      <div class="ongoing-status ongoing-status--published">Published</div>
+      <h3 class="ongoing-title">
+        <a href="https://doi.org/10.1371/journal.pone.0272733" target="_blank">Modularity of Food-Sharing Networks Minimises the Risk for Individual and Group Starvation</a>
+      </h3>
+      <p class="ongoing-desc">Shows that modular structure in food-sharing networks among hunter-gatherer societies reduces starvation risk by buffering local shortfalls — balancing within-group solidarity with inter-group independence.</p>
+      <div class="ongoing-themes">
+        <span class="theme-badge theme-badge--network-science">Network Science</span>
+        <span class="pub-venue-inline">PLOS ONE &middot; 2022</span>
+      </div>
+      <div class="infographic-wrap">
+        <img src="/images/infographics/infographic-food-sharing.png" alt="Food-sharing Networks infographic" class="infographic-img js-lightbox-trigger" loading="lazy">
       </div>
     </div>
 
