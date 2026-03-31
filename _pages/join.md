@@ -85,7 +85,7 @@ author_profile: true
   <p>Interested students should email me with a brief statement of your research interests and how they align with the <a href="/publications/">current and previous research</a> in the lab. Please include your CV and any relevant academic transcripts.</p>
   <p>Our department offers full-time research <strong>MSc and PhD programs</strong> and students can usually obtain funding through an <strong>ANID graduate fellowship</strong>. Depending on your academic record, we can also explore a broader range of funding options for MSc students.</p>
   <p style="margin-top:1.2em;">
-    <a href="mailto:aabeliuk@uchile.cl" class="btn btn--primary">Email me to apply</a>
+    <a href="mailto:aabeliuk@dcc.uchile.cl" class="btn btn--primary">Email me to apply</a>
   </p>
 </div>
 
@@ -99,6 +99,6 @@ author_profile: true
   </div>
 
   <p>
-    <a href="mailto:aabeliuk@uchile.cl" class="btn btn--primary">Get in touch</a>
+    <a href="mailto:aabeliuk@dcc.uchile.cl" class="btn btn--primary">Get in touch</a>
   </p>
 </div>
