@@ -122,7 +122,7 @@ author_profile: true
     <div class="ongoing-card ongoing-card--infographic">
       <div class="ongoing-status">Preprint</div>
       <h3 class="ongoing-title">
-        <a href="/publication/2025-07-01-Networks-multiscale-entropy-analysis">Networks Multiscale Entropy Analysis</a>
+        <a href="https://arxiv.org/abs/2510.11524">Networks Multiscale Entropy Analysis</a>
       </h3>
       <p class="ongoing-desc">Develops a multiscale entropy framework for analyzing the structural complexity of networks across different organizational scales, with applications to social and biological networks.</p>
       <div class="ongoing-themes">
