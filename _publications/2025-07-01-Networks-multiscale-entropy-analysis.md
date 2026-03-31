@@ -7,4 +7,5 @@ venue: 'arXiv'
 excerpt: 'Develops a multiscale entropy framework for analyzing the structural complexity of networks across different organizational scales, with applications to social and biological networks.'
 theme: 'Network Science'
 selected: true
+has_infographic: true
 ---
